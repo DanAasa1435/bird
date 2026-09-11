@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+<head>
+
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="Trophy Dynasty - Crafting High Quality Trophies">
+  <meta name="author" content="Trophy Dynasty">
+  <link rel="icon" href="favicon.ico" type="image/ico">
+
+  <title>Home | Trophy Dynasty</title>
+  
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /* browser stlye restarting */
+
+   body {
+   /*background-color: #043a5a;*/
+   background-color: white; 
+   }
+
+ .top-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 450px;
+  /* background-color: #043a5a; */
+  background-color: white;
+  padding: 15px 0; 
+  height: 90px;
+  /*
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  border-left: 1px solid #333;   
+  border-right: 1px solid #333;
+  border-radius: 10px;
+  */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(5px);
+ }
+  
+  .main-nav {
+  display: flex; 
+  gap: 30px;
+  text-decoration: none; 
+  }
+  
+   .main-nav a {
+  display: flex; 
+  color: #575757;
+  font-size: 17px;
+  text-decoration: none; 
+  font-family: "Verdana", Times, serif;
+  }
+
+  .main-nav a:hover {
+  color: black;
+  }   
+  
+  #title-logo {
+  display: flex; 
+  margin-left: 30px;
+  }
+  
+  .icon-size {
+  width: 50px;
+  height: 50px;
+  cursor: pointer; 
+  object-fit: contain; /* shapes the image and prevents it from stretching */
+  }
+  
+  .logo-size {
+  width: 85px;
+  height: 85px;
+  cursor: pointer; 
+  object-fit: contain; /* shapes the image and prevents it from stretching */
+  }
+  
+  .bottom-header {
+  transform: translateX(60px);
+  }
+ 
+  
+  footer {
+   padding: 30px 0;
+   background-color: red; 
+  }
+ 
+   .product-size {
+   width: 80px;
+   height: 60px;
+   }
+   
+   .toptrophies {
+   display: none;
+   background-color: red; 
+   z-index: 100;
+   position: absolute; /*keeps the object still and underneath the dropdown*/
+   top: 100%; 
+    
+   }
+   
+   .itemandprice {
+   flex-direction: column; 
+   }
+   
+   .trophyhover:hover .toptrophies {
+   display: flex; 
+   }
+ 
+  .about {
+  max-width: 400px; /*element never grows larger than this amount */ 
+  width: 100%; /* gets element to stretch fully across its parent container */ 
+  /* margin: auto; /* keeps the object always centered within*/ */
+  height: auto; /* keeps the height to be the equal to the width without making it squashed and stretched */ 
+  display: block;
+  transform: translateX(30px);
+  }
+  
+  </style>
+  </head>
+  
+  <body>
+  <header class="top-header">
+  <img src="Images/trophylogo.png" alt="trophy dynasty" class="logo-size" title="Trophy Dynasty">
+  
+  <div class="navlinks">
+  <nav class="main-nav">
+  <div class="trophyhover">
+   <a href="about.html" target="_blank" class="trophybtn">Trophies &#9662;</a>
+   <div class="toptrophies" id="trophymenu">
+   <div class="itemandprice">
+	<img src="Images/football1.png" alt="football 1" class="product-size">
+	<p>14.99</p>
+	</div>
+	<div class="itemandprice">
+	<img src="Images/football2.png" alt="football 1" class="product-size">
+	<p>25.99</p>
+	</div>
+	<div class="itemandprice">
+	<img src="Images/football3.png" alt="football 1" class="product-size">
+	<p>26.99</p>
+	</div>
+    </div>
+	</div>
+	
+	
+   <a href="#Profile" id="nav-profile">Plaques &#9662;</a>
+   <a href="#Contact" id="nav-contact-me">Medals &#9662;</a>  
+   </nav>
+    	
+   </div> 
+   </div> 
+   <div id="icons">
+   <img src="Images/searchIcon.png" alt="search" class="icon-size" title="Search">
+   <img src="Images/bagIcon.png" alt="purchase" class="icon-size" title="Checkout">
+   </div>  
+  </header>
+ 
+  <p>low</p>
+  </body>
+  
+  
